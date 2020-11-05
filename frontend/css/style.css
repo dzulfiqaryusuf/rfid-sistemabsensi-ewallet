@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: larger;
+    margin-left: 10px;
+    font-family: 'Orbitron', sans-serif; 
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 30px;
+    font-family: 'Orbitron', sans-serif; 
+}
