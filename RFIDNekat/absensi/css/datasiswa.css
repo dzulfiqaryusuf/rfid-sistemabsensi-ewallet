@@ -1,0 +1,33 @@
+.btn a:hover::after {
+display: none;
+}
+.container-fluid h3 {
+    font-family: 'Spectral SC', serif; 
+    color: white; 
+}
+.table thead tr {
+    background-color: black; 
+    color: white;
+}
+.table thead tr th:nth-child(0) {
+    width: 10px; 
+    text-align: center
+}
+.table thead tr th:nth-child(1){
+width: 200px; text-align: center
+}
+.table thead tr th:nth-child(2) {
+width: 400px; text-align: center
+}
+.table thead tr th:nth-child(3) {
+text-align: center
+}
+.table thead tr th:nth-child(3) {
+width: 100px; text-align: center
+}
+.btn a {
+    margin-bottom: 20px;
+}
+tbody td {
+    color: white;
+}

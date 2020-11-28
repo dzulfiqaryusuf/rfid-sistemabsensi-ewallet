@@ -1,0 +1,29 @@
+hr {
+    border: solid white;
+    border-width: 3px 0 0;
+    width: 150px;
+    margin: -20px auto 50px ;
+    height: 0;
+    text-align: center;
+    }
+    .container-fluid {
+        padding-top: 100px; 
+        text-align: center; 
+        font-family: 'Spectral SC', serif; 
+    }
+    .container-fluid h1 {
+        font-size: 54px;
+        color: white;
+        padding: 50px 0 20px 0;
+    }
+
+    @media screen and (max-width: 576px) {
+    .container-fluid h1 {
+        font-size: 38px;
+    }
+    hr {
+        width: 100px;
+        height: 12px;
+        padding-bottom: 150px;
+    }
+    }

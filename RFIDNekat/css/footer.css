@@ -1,0 +1,15 @@
+.footer {
+    padding: 40px 0;
+    text-align: center; 
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+    .footer {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px ;
+}
+}

@@ -1,0 +1,41 @@
+.main {
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', serif; 
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: 30px 20px;
+}
+.menu {
+    font-size: 38px;
+    display: flex;
+    margin: 80px 30px;
+    justify-content: space-evenly;
+}
+hr {
+    border: solid white;
+    border-width: 3px 0 0;
+    width: 150px;
+    margin: -20px auto 50px ;
+    height: 0;
+    text-align: center;
+    }
+.menu a {
+    font-family: 'Spectral SC', serif; 
+    color: white;
+}
+.menu a:hover {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}

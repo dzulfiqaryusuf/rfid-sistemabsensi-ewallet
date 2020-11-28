@@ -1,0 +1,13 @@
+.container-fluid {
+    color: white;
+}
+.container-fluid h3 {
+    font-family: 'Spectral SC', serif;
+}
+.container-fluid thead tr th {
+    text-align: center;
+    width: 10px;
+}
+.container-fluid thead tr {
+    background-color: black;
+}

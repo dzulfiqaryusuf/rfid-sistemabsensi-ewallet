@@ -1,0 +1,46 @@
+.card {
+    color: white;
+    margin: 5px 15px;
+    width: 240px;
+    background-color: black;
+    border: 8px solid blue;
+}
+.card-deck {
+        display: flex;
+        justify-content: space-between;
+    }
+.card-body h5 {
+    margin-left: 5px;
+}
+.card-body p {
+    margin-left: 5px;
+}
+.card img {
+    width: 225px;
+    height: 240px;
+}
+
+@media screen and (max-width: 576px) {
+    .card-deck {
+        display: flex;
+        justify-content: left;
+    }
+    .card {
+        margin-left: 40px;
+        width: 190px;
+        height: 320px;
+    }
+    .deck {
+        display: block;
+    }
+    .card img {
+        width: 175px;
+        height: 120px;
+    }
+    .deck3 {
+        display: none;
+    }
+    .deck4 {
+        display: none;
+    }
+}
